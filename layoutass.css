@@ -1,0 +1,89 @@
+body{
+margin-top: none;
+font-family: Arial;
+	
+}
+.header{
+	display: flex;
+	background-color: none
+}
+.header>div{
+	text-align: center;
+	background-color: #1abc9c;
+	width: 100%;
+	height: 150px;
+	color: white;
+	justify-content: center;
+	border-top: none;
+}
+.link{
+	display: flex;
+	background-color: #333333;
+	width: 100%;
+	height: 30px;
+	color: white;
+	padding-top: 10px;
+}
+.link a{
+	align-self: center;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 860px;
+	justify-content: flex-start;
+	
+}
+.aboutme{
+	display: flex;
+	width: 30%;
+	height: 850px;
+	background-color: #EAEDED;
+	flex-direction: column;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+.image1{
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+.sideimage{
+display: flex;
+flex-direction: column;
+
+}
+.sideimage>div{
+	width: 100%;
+	height: 50px;
+	background-color: #aaaaaa;
+	margin-top: 10px;
+}
+
+.heading{
+display: flex;
+width: 70%;
+height: 860px;
+flex-direction: column;
+padding: 15px;
+}
+.Photo1{
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+.Photo2{
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+.footer{
+	background-color: #D7DBDD;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}

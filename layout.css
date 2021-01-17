@@ -1,0 +1,47 @@
+
+.flex-container1{
+	display: flex;
+	background-color: none;
+	margin: 10px;
+}
+.flex-container1>div{
+	background-color: lightblue;
+	height: 30px;
+	margin: 10px;
+	width: 100%;
+}
+.flex-container2{
+	display: flex;
+	background-color: none;
+	margin: 10px;
+}
+.flex-container2>div{
+	background-color: lightblue;
+	height: 150px;
+	margin: 10px;
+	width: 100%;
+}
+.flex-container3{
+	display: flex;
+	background-color: none;
+	margin: 13px;
+}
+.flex-container3>div{
+	background-color: lightblue;
+	margin: 10px;
+	width: 40%;
+	height: 150px;
+	align-content: space-between;
+	justify-content: center;
+}
+.flex-container4{
+	display: flex;
+	background-color: none;
+	margin: 10px;
+}
+.flex-container4>div{
+	background-color: lightblue;
+	height: 50px;
+	margin: 10px;
+	width: 100%;
+}
